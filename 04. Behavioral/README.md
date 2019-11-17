@@ -40,3 +40,18 @@
 * `javax.swing.Action`
 
 ----
+
+## Interpreter
+
+* Interpreter pattern is used to defines a grammatical representation for a language and provides an interpreter to deal with this grammar.
+* Interpreter is a component that processes structured text data.
+* Stages:
+  * Lexing: Turning text into separate lexical tokens.
+  * Parsing: Interpreting sequence of tokens.
+
+### Interpreter Exmaples in JDK
+
+* `java.util.Pattern`
+* `java.text.Format`
+
+----
