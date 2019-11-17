@@ -21,3 +21,22 @@
 * `javax.servlet.Filter#doFilter()`
 
 ----
+
+## Command
+
+* Command is an object which represents an instruction to perform a particular action. It contains all the information necessary to perform action.
+* Command pattern allows us to decouple objects that produce the commands from their consumers.
+
+### Command Advantages
+
+* Command pattern makes code extensible as we can add new commands without changing existing code.
+* Reduces coupling the invoker and receiver of a command.
+* Can be used to track history
+* Can be used to allow undo operations
+
+### Command Exmaples in JDK
+
+* `java.lang.Runnable`
+* `javax.swing.Action`
+
+----
