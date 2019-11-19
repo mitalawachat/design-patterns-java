@@ -55,3 +55,38 @@
 * `java.text.Format`
 
 ----
+
+----
+
+## Iterator
+
+* Iteration (traversal) is a core functionality of various data structures.
+* An iterator is a class that facilitates the traversal
+  * Keeps a reference of the current element
+  * Knows how to move to a different element
+
+### Iterator Exmaples in JDK
+
+* `java.util.List`
+* `java.util.Scanner`
+
+----
+
+## Mediator
+
+* Mediator facilitates communication between other components without them necessarily being aware of each other or having direct (reference) access to each other.
+
+### Mediator Advantages
+
+* Allows loose coupling by encapsulating the way disparate sets of objects interact and communicate with each other.
+* Allows for the actions of each object set to vary independently of one another.
+
+----
+
+## Memento
+
+* Memento is a token/handle representing the system state.
+* Memento let's us rollback to the state when the token was generated.
+* Memento may or may not directly expose state information.
+
+----
