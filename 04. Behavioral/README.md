@@ -90,3 +90,25 @@
 * Memento may or may not directly expose state information.
 
 ----
+
+## Null Object
+
+* Implement the required interface.
+* Rewrite the methods with empty bodies.
+  * If method is non-void return default value for a given type.
+  * If these values are ever used then it can cause issue.
+* Supply the instance of Null Object in place of actual object.
+* Hope everything goes OK!
+
+----
+
+## Observer
+
+* Observer is an object that wishes to be informed about events happening in the system. The entity generating the events is an observable.
+* Observer pattern is used when we need to be informed when certain things happen.
+  * Object's field changes.
+  * Object does something.
+  * Some external event occurs.
+* We want to listen to events and notified when they occur.
+
+----
