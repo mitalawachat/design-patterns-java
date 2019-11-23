@@ -112,3 +112,26 @@
 * We want to listen to events and notified when they occur.
 
 ----
+
+## State
+
+* A pattern in which the object's behavior is determined by its state. An object transitions from one state to another (something needs to trigger a transition).
+* A formalized construct which manages state and transition is called state machine.
+* Steps:
+  * State entry/exit behaviors.
+  * Action when a particular event causes a transition.
+  * Guard conditions enabliing/disabling a transition.
+  * Default action when no trsnsition are found for an event.
+
+----
+
+## Strategy
+
+* Strategy pattern enables the exact behavior of a system to be selected either at run-time (dynamic) or compile-time (static).
+* Many algorithms can be decomposed into higher-level and lower-level parts
+* Steps:
+  * Define an algorithm at a high level
+  * Define the interface you expect each strategy to follow
+  * Provide for either dynamic or static composition of strategy in the overall algorithm
+
+----
